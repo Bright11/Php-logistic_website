@@ -1,0 +1,11 @@
+RewriteEngine On
+ErrorDocument 404 /Pagenotfund.php
+#ErrorDocument 401 /authreqd.php
+#ErrorDocument 403 /forbidden.php
+#ErrorDocument 400 /pagenotfound.php
+#ErrorDocument 500 /internalerror.php
+
+RewriteRule ^TRACKING_INFO tracking_info.php [NC,L]
+RewriteRule ^INDEX index.php [NC,L]
+RewriteRule ^SERVICES services.php [NC,L]
+RewriteRule ^ABOUTUS aboutus.php [NC,L]
